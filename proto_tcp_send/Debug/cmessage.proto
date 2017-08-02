@@ -1,0 +1,9 @@
+syntax="proto2";
+
+message Submessage {
+  required int32 value=1;
+}
+
+message EMessage {
+  repeated Submessage a=1;
+}
